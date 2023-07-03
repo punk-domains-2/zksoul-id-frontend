@@ -23,7 +23,7 @@
 
             <a 
               class="btn btn-primary me-2 navbar-menu-btn" 
-              href="https://mintsquare.io/collection/zksync/0xe36507ad67ac0ae6d27d22b407a9338b136315df" 
+              href="https://element.market/collections/zksoul?search%5Btoggles%5D[0]=BUY_NOW" 
               target="_blank"
             >Collection</a>
 
