@@ -1,10 +1,10 @@
 [[redirects]]
-  from = "https://zkchat.net"
+  from = "http://zkchat.net"
   to = "https://id.zkchat.net"
   status = 301
   force = true
 [[redirects]]
-  from = "https://www.zkchat.net"
+  from = "http://www.zkchat.net"
   to = "https://id.zkchat.net"
   status = 301
   force = true
