@@ -4,7 +4,17 @@
   status = 301
   force = true
 [[redirects]]
+  from = "https://zkchat.net"
+  to = "https://id.zkchat.net"
+  status = 301
+  force = true
+[[redirects]]
   from = "http://www.zkchat.net"
+  to = "https://id.zkchat.net"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://www.zkchat.net"
   to = "https://id.zkchat.net"
   status = 301
   force = true
