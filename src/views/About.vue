@@ -8,13 +8,6 @@
         zkSoul ID is a groundbreaking concept that introduces the idea of soulbound identities on zkSync.
       </p>
 
-      <h3>Free mint</h3>
-
-      <p>
-        The first zkSoul ID for an address is free, but only for IDs that are 5+ characters long. This incentivizes users to 
-        adopt zkSoul ID as their primary mode of identification on zkSync.
-      </p>
-
       <h3>ID = Wallet Address</h3>
 
       <p>
