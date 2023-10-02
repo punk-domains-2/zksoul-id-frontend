@@ -108,7 +108,6 @@ export default {
   watch: {
     address(newVal, oldVal) {
       if (newVal) {
-        this.checkUserDomainBalance();
         this.setUserData();
         this.fetchUserDomainNames(true);
         this.checkIfAdmin();
@@ -121,7 +120,6 @@ export default {
       }
 
       if (this.chainId >= 1) {
-        this.checkUserDomainBalance();
         this.setUserData();
         this.setNetworkData();
         this.fetchUserDomainNames(true);

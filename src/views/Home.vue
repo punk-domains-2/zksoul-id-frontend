@@ -117,8 +117,7 @@
             </tr>
             <tr>
               <td>5+ characters</td>
-              <td v-if="Number(getMinterTldPrice5) > 0">{{getMinterTldPrice5}} {{getPaymentTokenName}}</td>
-              <td v-if="Number(getMinterTldPrice5) == 0">FREE</td>
+              <td>{{getMinterTldPrice5}} {{getPaymentTokenName}}</td>
             </tr>
           </tbody>
         </table>
@@ -266,7 +265,6 @@ export default {
             onClick: () => window.open(this.getBlockExplorerBaseUrl+"/tx/"+tx.hash, '_blank').focus()
           });
           this.addDomainManually(fullDomainName);
-          this.checkUserDomainBalance();
           this.waiting = false;
         } else {
           this.toast.dismiss(toastWait);

@@ -18,7 +18,7 @@ export default {
     tldContract: null,
     tldChainId: 324,
     tldChainName: "zkSync Era",
-    minterAddress: "0x346F859312527e5B2f34C22b645015e8764c0B14", // TODO
+    minterAddress: "0x0453B90095E756427392980B7a6430d0dbD5611b", // TODO
     minterContract: null,
     minterLoadingData: false,
     minterPaused: true,
@@ -74,11 +74,7 @@ export default {
       return state.minterTldPrice4;
     },
     getMinterTldPrice5(state) {
-      if (isActivated.value && state.balance > 0) {
-        return state.minterTldPrice5;
-      } else {
-        return 0;
-      }
+      return state.minterTldPrice5;
     },
     getReferralFee(state) {
       return state.referralFee;
