@@ -307,7 +307,7 @@ export default function useChainHelpers() {
     } else if (networkName == "zkSync Era") {
       method = "wallet_addEthereumChain"
       params = [{ 
-        blockExplorerUrls: [ "https://explorer.zksync.io" ],
+        blockExplorerUrls: [ "https://era.zksync.network" ],
         chainId: "0x144",
         chainName: "zkSync Era",
         nativeCurrency: { decimals: 18, name: "ETH", symbol: "ETH" }, 

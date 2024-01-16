@@ -17,7 +17,7 @@ export default {
   getters: { 
     getBlockExplorerBaseUrl() {
       // TODO
-      return "https://explorer.zksync.io";
+      return "https://era.zksync.network";
     },
     
     getChainId() {
